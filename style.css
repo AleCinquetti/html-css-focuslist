@@ -1,0 +1,217 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* REGOLE GENERALI (CLEARFIX) */
+.container {
+    width: 85%;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Quicksand';
+}
+
+
+/* HEADER + JUMBOTRON */
+header {
+    background: linear-gradient(30deg, #225393, #002351)
+}
+
+.jumbo-img {
+    float: left;
+    width: 50%;
+}
+
+.jumbo-text {
+    float: left;
+    width: 45%;
+}
+
+.jumbo-text {
+    margin-top: 130px;
+    color: white;
+    margin-right: 32px;
+    margin-left: 25px;
+}
+
+.jumbo-text h1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.jumbo-text p {
+    font-size: 24px;
+    font-weight: 300;
+    margin: 20px 0 40px 0;
+    color: #7393c1;
+}
+
+.jumbo-img {
+    margin-top: 40px;
+}
+
+.jumbo-links span {
+    font-size: 14px;
+}
+
+.jumbo-links::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.just-a-link {
+    float: left;
+    width: 45%;
+}
+
+
+
+
+
+
+/* 1ST SECTION - PLANNING */
+.one-card {
+    float: left;
+    width: 33%;
+}
+
+.title {
+    padding: 40px;
+    text-align: center;
+}
+
+.title h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.title p {
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    width: 60%;
+    line-height: 1.5em;
+    color: #9ba6b7;
+}
+
+.one-card h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #274daf;
+}
+
+.one-card p {
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 400;
+    color: #9ba6b7;
+}
+
+.one-card > img {
+    width: 100%;
+}
+
+#focus {
+    margin-top: 110px;
+    text-align: right;
+}
+
+#timebox {
+    margin-top: 160px;
+}
+
+
+/* 2ND SECTION - POMODORO */
+
+.pomodoro {
+    background: #2a4b77;
+    padding-bottom: 30px;
+}
+
+#pomo h2 {
+    color: white;
+}
+
+.two-cards {
+    float: left;
+    width: 27.1%;
+    margin: 3.1%;
+    text-align: center;
+}
+
+.two-cards h5 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 30px 0 15px 0;
+    color: white;
+}
+
+.two-cards p {
+    line-height: 1.5em;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7393c1;
+}
+
+
+/* 3RD SECTION - FEATURES */
+.three-cards {
+    float: left;
+    width: 50%;
+}
+
+#stats {
+    width: 80%;
+}
+
+.features > .container {
+    width: 60%;
+}
+
+
+
+/* FOOTER */
+footer {
+    background: #2a4b77;
+}
+
+
+ul {
+    float: left;
+    width: 25%;
+    padding: 60px;
+    list-style: none;
+}
+
+ul h6 {
+    font-size: 14px;
+    color: #7393c1;
+    margin-bottom: 13px;
+    font-weight: 700;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer-nav::after {
+    content: "";
+    display: table;
+    clear: both;
+}
